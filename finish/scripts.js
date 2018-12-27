@@ -3,11 +3,7 @@ Vue.filter('currency', function (value) {
 });
 
 Vue.component('cart-item-row', {
-  props: {
-    'item': Object,
-    'index': Number,
-    'onRemove': Function
-  },
+  props: ['item', 'index', 'onRemove'],
   template: `
     <tr v-if="!item.edit">
         <td>{{ item.name }}</td>
@@ -28,7 +24,7 @@ Vue.component('cart-item-row', {
             <img v-else src="https://media.giphy.com/media/JUEKek7t2bqYE/giphy.gif" alt="boo">
         </td>
     </tr>
-    <tr v-else>
+    <tr v-else :class="[{'table-dark': item.edit}]">
         <td>
             <input type="text" class="form-control" name="name" id="" v-model="item.name" />
         </td>
