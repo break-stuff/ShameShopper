@@ -6,7 +6,7 @@ Become familiar with the core functionality of the Vue.js framework. This projec
 
 Avoid looking at it as much as possible and instead look at the [Vue.js documentation](https://vuejs.org) for explanations and examples on how to use the framework. The documentation is ***excellent***!
 
-Starter data is provided in the data.json file. Here is the summary of tasks for this challenge:
+Starter data is provided in the `data.txt` file. Here is the summary of tasks for this challenge:
 
 1. Display Your Data
     * Add Vue.js to your site and initialize a Vue instance.
@@ -25,10 +25,12 @@ Starter data is provided in the data.json file. Here is the summary of tasks for
 
 1. Add Vue.js to your site using the CDN ([help](https://vuejs.org/v2/guide/installation.html#CDN)).
 2. Create a new Vue instance and have it watch en element on your page ([help](https://vuejs.org/v2/guide/index.html#Declarative-Rendering)).
-3. Add data to your Vue instance (there is some starter data in the `data.json` file located at the root of the project).
+3. Add data to your Vue instance (there is some starter data in the `data.txt` file located at the root of the project).
 4. Create a table on your page and dynamically populate the rows of the table using the data in your Vue instance ([help](https://vuejs.org/v2/guide/index.html#Conditionals-and-Loops)).
+    * Be sure to ad a subtotal value in each row.
 5. Add image or text indication of healthy or non-healthy foods.
-6. Create custom filter for currency ([help](https://vuejs.org/v2/guide/filters.html));
+6. Add a Total row at the bottom of your dynamic rows.
+7. Create custom filter for currency ([help](https://vuejs.org/v2/guide/filters.html));
 
 ### Interact With Your Data
 
