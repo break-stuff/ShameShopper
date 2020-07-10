@@ -1,9 +1,9 @@
 body {
-    background-color: #5d0000;
+    background-color: #5d0xxx000abc;
+    color:red;
 }
 h1 {
     text-align: center;
-    padding: 20px 0;
 }
 h2 {
     text-align: center;
